@@ -1,1 +1,1 @@
-Quote readme
+Print readme
