@@ -2,9 +2,9 @@
 #include <unistd.h>
 
 /**
- * main - Entry point
+ * main - prints out the last part of a quote in the standard error.
  *
- * Return: Always 0 (Success)
+ * Return: 1 if Success.
  */
 int main(void)
 {
