@@ -1,1 +1,1 @@
-Slower readme
+Isalpha readme
