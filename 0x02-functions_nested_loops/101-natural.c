@@ -3,7 +3,7 @@
 
 /**
  * main - lists all the ntural numbers below 1024 (excluded)
- * that are multiples of 3 or 6
+ *        that are multiples of 3 or 6
  *
  * Return: Always 0.
  */
