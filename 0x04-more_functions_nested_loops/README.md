@@ -1,1 +1,1 @@
-Print diagonal readme
+Print square
