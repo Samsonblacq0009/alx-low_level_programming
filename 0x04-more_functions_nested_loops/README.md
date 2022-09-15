@@ -1,1 +1,1 @@
-Print square
+Print tringle readme
