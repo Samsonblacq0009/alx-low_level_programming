@@ -1,1 +1,1 @@
-Print tringle readme
+Prime readme
