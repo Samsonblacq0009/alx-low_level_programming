@@ -1,1 +1,1 @@
-Prime readme
+Print number readme
