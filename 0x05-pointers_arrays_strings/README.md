@@ -1,1 +1,1 @@
-Puts half readme
+Print array readme
