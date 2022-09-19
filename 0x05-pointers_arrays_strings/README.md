@@ -1,1 +1,1 @@
-Puts2readme
+Puts half readme
