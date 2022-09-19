@@ -1,1 +1,1 @@
-puts readme
+Print readme
