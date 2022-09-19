@@ -1,1 +1,1 @@
-Print array readme
+Strcpy readme
