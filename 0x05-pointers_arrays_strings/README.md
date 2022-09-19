@@ -1,1 +1,1 @@
-Strlen readme
+puts readme
