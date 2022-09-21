@@ -1,1 +1,1 @@
-String readme
+Magic readme
