@@ -1,1 +1,1 @@
-Strncpy 2 readme
+Strcmp readme
