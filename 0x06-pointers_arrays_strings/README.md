@@ -1,1 +1,1 @@
-Strncat readme
+Array readme
