@@ -1,1 +1,1 @@
-Putchar readme
+Strncat readme
