@@ -1,1 +1,1 @@
-Print number readme
+Magic readme
