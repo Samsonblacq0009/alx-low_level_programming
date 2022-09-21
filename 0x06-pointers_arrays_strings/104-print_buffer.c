@@ -1,41 +1,78 @@
 #include "main.h"
 #include <stdio.h>
+
 /**
- * print_buffer - function that prints a buffer
- * @b: input
- * @size: input
- * Return: output
+ * isPrintableASCII - determines if n is a printable ASCII char
+ * @n: integer
+ * Return: 1 if true, 0 if false
+ */
+int isPrintableASCII(int n)
+{
+	return (n >= 32 && n <= 126);
+}
+
+/**
+ * printHexes - print hex values for string b in formatted form
+ * @b: string to print
+ * @start: starting position
+ * @end: ending position
+ */
+void printHexes(char *b, int start, int end)
+{
+	int i = 0;
+
+	while (i < 10)
+	{
+		if (i < end)
+			printf("%02x", *(b + start + i));
+		else
+			printf("  ");
+		if (i % 2)
+			printf(" ");
+		i++;
+	}
+}
+
+/**
+ * printASCII - print ascii values for string b,
+ * formatted to replace nonprintable chars with '.'
+ * @b: string to print
+ * @start: starting position
+ * @end: ending position
+ */
+void printASCII(char *b, int start, int end)
+{
+	int ch, i = 0;
+
+	while (i < end)
+	{
+		ch = *(b + i + start);
+		if (!isPrintableASCII(ch))
+			ch = 46;
+		printf("%c", ch);
+		i++;
+	}
+}
+
+/**
+ * print_buffer - prints a buffer
+ * @b: string
+ * @size: size of buffer
  */
 void print_buffer(char *b, int size)
 {
-	int i, j, k, f;
-	
-	if (size <= 0)
+	int start, end;
+
+	if (size > 0)
 	{
-		printf("\n");
-		return;
-	}
-	for (i = 0; i < size; i += 10)
-	{
-		printf("%08x: ", i);
-		for (j = i; j < i + 10; j += 2)
+		for (start = 0; start < size; start += 10)
 		{
-			for (k = j; k <= j + 1; k++)
-				if ((b[k] != 0) && (k < size))
-					printf("%02x", b[k]);
-				else if (k < size)
-					printf("%02x", 0);
-				else
-					printf("  ");
-			printf(" ");
+			end = (size - start < 10) ? size - start : 10;
+			printf("%08x: ", start);
+			printHexes(b, start, end);
+			printASCII(b, start, end);
+			printf("\n");
 		}
-		for (f = i; f < i + 10; f++)
-		{
-			if ((b[f] >= 32 && b[f] <= 126) && (f < size))
-				printf("%c", b[f]);
-			else if (f < size)
-				printf("%c", '.');
-		}
+	} else
 		printf("\n");
-	}
 }
