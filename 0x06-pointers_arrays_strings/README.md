@@ -1,1 +1,1 @@
-Rev array readme
+String readme
