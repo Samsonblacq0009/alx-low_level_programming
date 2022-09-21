@@ -1,1 +1,1 @@
-Strncat 1 readme
+Strncpy 2 readme
