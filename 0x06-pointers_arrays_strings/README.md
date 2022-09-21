@@ -1,1 +1,1 @@
-Magic readme
+Infinite readme
