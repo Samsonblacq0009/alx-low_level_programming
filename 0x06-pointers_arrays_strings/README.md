@@ -1,1 +1,1 @@
-Strcmp readme
+Rev array readme
