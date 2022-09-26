@@ -1,1 +1,1 @@
-Chess readme
+Diagsums readme
