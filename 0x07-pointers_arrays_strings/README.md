@@ -1,1 +1,1 @@
-Ststr readme
+Chess readme
