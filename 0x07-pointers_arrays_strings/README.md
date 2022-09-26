@@ -1,1 +1,1 @@
- Memcy readme
+Strchr readme
