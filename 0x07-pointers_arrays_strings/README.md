@@ -1,1 +1,1 @@
-Strpbrk readme
+Ststr readme
