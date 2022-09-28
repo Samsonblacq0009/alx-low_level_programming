@@ -1,1 +1,1 @@
-Prime readme
+Palindrome readme
