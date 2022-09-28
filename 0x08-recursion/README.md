@@ -1,1 +1,1 @@
-Sqrt readme
+Prime readme
