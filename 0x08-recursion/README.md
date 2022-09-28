@@ -1,1 +1,1 @@
-Palindrome readme
+Wild readme
