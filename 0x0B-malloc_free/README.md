@@ -1,1 +1,1 @@
-Creaate array readme
+Strdup readme
