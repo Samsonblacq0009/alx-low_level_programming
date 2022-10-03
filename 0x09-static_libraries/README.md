@@ -1,1 +1,1 @@
-Main readme
+static libraries
