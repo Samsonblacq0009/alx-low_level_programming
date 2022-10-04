@@ -1,1 +1,1 @@
-Strdup readme
+Array readme
