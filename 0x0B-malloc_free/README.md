@@ -1,1 +1,1 @@
-Strdup readme
+Concat readme
