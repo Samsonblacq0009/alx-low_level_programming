@@ -1,1 +1,1 @@
-Free readme
+Stostr readme
