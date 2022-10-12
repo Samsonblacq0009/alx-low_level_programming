@@ -1,1 +1,1 @@
-Function readme
+Print readme
