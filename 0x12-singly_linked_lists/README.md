@@ -1,1 +1,1 @@
-list readme
+print readme
