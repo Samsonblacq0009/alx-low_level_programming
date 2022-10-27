@@ -1,1 +1,1 @@
-flip readme
+Endianness readme
